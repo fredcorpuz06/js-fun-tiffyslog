@@ -12,6 +12,9 @@ body {
     margin: auto;
     border: 3px solid black;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
 }
 
 h1 {
@@ -27,11 +30,11 @@ h2 {
 
 button {
     border: 1px solid black;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 18px;
+    padding-bottom: 18px;
     color: white;
     font-weight: bold;
-    width: 200px;
+    width: 100%;
     margin-bottom: 5px;
     border-radius: 5px;
 }
