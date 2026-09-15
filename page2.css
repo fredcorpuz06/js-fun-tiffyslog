@@ -1,5 +1,7 @@
 body {
-    background: #1a1a3d;
+    background-image: url(bball.png);
+    background-size: cover;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     height: 100vh;
@@ -7,13 +9,17 @@ body {
 }
 
 .scoreboard {
-    display: flex;
     justify-content: center;
     gap: 20px;
 }
 
 .container {
-    background: #1a1a3d;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+
 }
 
 h1 {
@@ -35,4 +41,10 @@ button {
     color: white;
     padding: 8px;
     border-radius: 5px;
+}
+
+@media (max-width: 576px) {
+    body {
+        background-position: center 130%;
+    }
 }

@@ -1,8 +1,8 @@
 let homeScoreText = document.getElementById("home-score")
 let guestScoreText = document.getElementById("guest-score")
 
-let homeScore = 0
-let guestScore = 0
+let homeScore = 6
+let guestScore = 9
 
 function home1() {
     homeScore += 1
