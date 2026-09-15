@@ -1,0 +1,38 @@
+body {
+    background: #1a1a3d;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container {
+    background: #1a1a3d;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    background: black;
+    color: #ff5c5c;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    padding: 2px;
+}
+
+button {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+}
