@@ -1,0 +1,41 @@
+body {
+    background: rgb(11, 6, 44);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: inline-block;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+h2 {
+    color: rgb(14, 217, 190);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p {
+    color: white;
+    font-style: italic;
+}
+
+button {
+    padding: 8px;
+    border-radius: 5px;
+    background: rgb(14, 217, 190);
+    font-size: 12px;
+}
+
+.password-button {
+    background: rgb(50, 143, 214);
+    font-size: 10ßpx;
+}
